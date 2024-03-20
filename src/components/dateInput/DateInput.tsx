@@ -17,7 +17,19 @@ const DateInput = ({ label, date, setDate }: DateInputProps) => {
                 value={date}
                 onChange={(newValue) => setDate(newValue)}
                 slotProps={{ textField: { size: "small", required: true }}}
-                
+                sx={{
+                    color: "secondary.main",
+                    '& .MuiOutlinedInput-root': {
+                        '&.Mui-focused fieldset': {
+                            borderColor: 'secondary.main',
+                        },
+                    },
+                    '& .MuiInputLabel-root': {
+                        '&.Mui-focused': {
+                            color: "#000",
+                        }
+                    },
+                }}
             />
         </LocalizationProvider>
     )
