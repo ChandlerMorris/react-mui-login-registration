@@ -26,7 +26,7 @@ const DateInput = ({ label, date, setDate }: DateInputProps) => {
                     },
                     '& .MuiInputLabel-root': {
                         '&.Mui-focused': {
-                            color: "#000",
+                            color: "secondary.main",
                         }
                     },
                 }}

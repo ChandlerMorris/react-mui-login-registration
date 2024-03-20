@@ -16,7 +16,7 @@ const Register = () => {
 
     return (
         <Box sx={{ width: 500}}>
-            <FormControl sx={{bgcolor: 'primary.main', color: 'secondary.main', padding: '8rem 6rem', border: '1px solid #000', textAlign: 'center'}}>
+            <FormControl sx={{bgcolor: 'primary.main', color: 'secondary.main', padding: { xs: '8rem 2rem', md: '8rem 6rem'}, border: '1px solid #000', textAlign: 'center'}}>
                 <Typography variant="h2">Sign Up</Typography>
                 <Stack spacing={2} sx={{margin: '1rem 0'}}>
                     <Stack spacing={2} direction="row" sx={{margin: '1rem 0'}}>
